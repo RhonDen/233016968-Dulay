@@ -1,0 +1,81 @@
+/* Body Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg); /* Replace with your image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+/* Overlay for background dimming */
+.overlay {
+    background-color: rgba(17, 10, 43, 0.418);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the container */
+.container {
+    max-width: 800px;
+    width: 100%; 
+    padding: 30px;
+    background-color: #579ca56b;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fcfcfc;
+    display: inline-block;
+}
+
+
+p, li {
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    size: 250px;
+}
+
+
+.info-section {
+    margin-bottom: 40px;
+}
+
+.info-section strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  
+}
+
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: rgb(60, 97, 197);
+    color: white;
+    padding: 15px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
