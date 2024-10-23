@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survery Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- TITLE w/ desc-->
+    <h1 id="title"> Survey Form</h1>
+    <p id="description"> Pease fill out these forms below . Thank you for your time participating in this survey!!</p>
+
+    <!-- FORM -->
+     <form id="survey-form">
+
+     <fieldset>
+        <label for="name"> Enter your Full name: <input type="text" name="name" id="name" required></label>
+        
+        <label for="email">Enter your email: <input type="email" id="email" name="email" required></label>
+        
+        <label for="age">Enter your age <input type="number" id="age" name="age" min="13" max="110" ></label>
+        
+        <label for="choice1" name="choice1">Current Occupation
+            <select name="choice1" id="choice1">
+            <option value=""> (select one)</option>
+            <option value="1">Student</option>
+            <option value="2"> Working</option>
+            <option value="3"> Prefer not to say </option>
+        </select>
+        </label>
+
+
+     </fieldset>
+
+     <fieldset>
+        <legend> Who is your Strongest Fictional Character</legend>
+        <label for="Gojo"><input type="checkbox" name="Gojo" checked id="inline" class="inline">Gojo</label>
+        <label for="Rimuru"><input type="checkbox" name="Rimuru" id="inline" class="inline">Rimuru</label>
+        <label for="Goku"><input type="checkbox" name="Goku" id="inline" class="inline">Goku</label>
+        <label for="Aurelion Sol"><input type="checkbox" name="Aurelion Sol" id="inline" class="inline">Aurelion Sol</label>
+        <label for="Celestia"><input type="checkbox" name="Celestia" id="inline" class="inline">Celestia</label>
+        <label for="Acheron"><input type="checkbox" name="Acheron" id="inline" class="inline">Acheron</label>
+    </fieldset>
+    
+ <fieldset>
+    <label for="referrer">How did you find out that character is the strongest
+        <select id="referrer" name="referrer">
+          <option value="">(select one)</option>
+          <option value="1"> Manga</option>
+          <option value="2">Books</option>
+          <option value="3">TV</option>
+          <option value="4">Internet</option>
+          <option value="5">Social Media</option>
+          </select>
+     </label>
+
+    <label for="bio">Reasons why this character is strong :
+    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="enter your reasons why this character is the strongest.."></textarea>
+          </label>
+          
+          
+          <label>Would you recommend us to make another survey regarding this kind of topic?</label>
+          <label><input type="radio" name="recommend" value="yes" required class="inline"> Yes</label>
+          <label><input type="radio" name="recommend" value="no" class="inline"> No</label>
+
+        </fieldset>
+
+<label for="terms"><input type="checkbox" name="terms" id="terms" required class="inline"> I accept the terms and Conditions </label>
+ <input type="submit" value="submit">
+</form>
+</body>
+</html>
