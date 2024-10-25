@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    color: #e69500;
+    background-image: url(bggtr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode:color-burn ;
+    background-size: cover;
+    background-color: #04192ea4;
+  }
+  
+  /* Header Section */
+  #header {
+    background-image: url(banner.gif) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    background-color: #292929;
+    color: #e69500;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo {
+    height: 50px; 
+    margin-right: 5px;
+  }
+  
+
+  #navbar {
+    margin-top: 10px;
+    margin: 10px;
+
+  }
+  
+  .link {
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+ 
+  main {
+    padding: 20px;
+  }
+  
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px; 
+  }
+  
+  
+  #video-section {
+    margin-bottom: 40px; 
+  }
+  
+  #video {
+    width: 100%;
+    max-width: 560px; 
+    height: 315px; 
+  }
+  
+ 
+  .caption {
+    font-size: 16px;
+    color: #ffff;
+    margin-top: 10px;
+  }
+  
+ 
+  .button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #ffa31a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e69500;
+  }
+  
+  
+  #features {
+    padding: 20px 0;
+  }
+  
+  .feature {
+    margin-bottom: 40px; /* Space between features */
+  }
+  
+  .img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+  
+  .price {
+    font-size: 36px; /* Increased size for emphasis */
+    font-weight: bold;
+    color: #ffa31a;
+    margin-top: 30px; /* Add spacing above the price */
+  }
+  
+  /* Contact Section */
+  .contact {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .contact h3 {
+    color: #292929;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 20px; 
+    color: #666;
+  }
+  
+ 
+  #video-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  p {
+    font-size:  24px;    
+  }
