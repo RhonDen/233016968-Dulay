@@ -6,6 +6,19 @@
     .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
     h1 { color: #2c3e50; }
     p { font-size: 18px; color: #34495e; }
+
+    .exit-button {
+            display: block;
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
 </style>
 </head>
 <body>
