@@ -25,10 +25,13 @@
         <h1>Exercise 8: String Manipulation</h1>
         <p>
             <?php
-            $sentence = "Puno ng saging ng mga bisaya vs hallow blocks ng mga tagalog";
+            $sentence = "Puno ng saging ng mga bisaya vs <br> hallow blocks ng mga tagalog <br>" . " vs " . "Aso ng mga ilocano"  ;
             echo "Characters: " . strlen($sentence) . "<br>";
+            echo "";
             echo "Words: " . str_word_count($sentence) . "<br>";
+            echo "";
             echo "Uppercase: " . strtoupper($sentence) . "<br>";
+            echo "";
             echo "Lowercase: " . strtolower($sentence);
             ?>
         </p>

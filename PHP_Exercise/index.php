@@ -3,6 +3,8 @@
 <head>
     <title>PHP Exercises Index</title>
     <style>
+
+        
         body {
             margin: 0;
             padding: 0;
@@ -11,7 +13,10 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #55010fff;
+            background-image:  url(alpha.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
         .container {
             background-color: #ffffffff;
