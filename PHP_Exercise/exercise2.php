@@ -10,6 +10,7 @@
         </style>
 </head>
 <body>
+<button><a class="exit-button"  href="index.php">GO BACK</a></button>
     <div class="container">
         <h1>Exercise 2: Simple Math</h1>
         <p>
